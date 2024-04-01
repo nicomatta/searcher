@@ -3,6 +3,7 @@
 See the [cli README](../cli/README.md) for setup instructions.
 
 ## Usage
+
 ```bash
 cargo run --bin jito-backrun-example -- \
     --block-engine-url <BLOCK_ENGINE_URL> \
@@ -15,7 +16,9 @@ cargo run --bin jito-backrun-example -- \
 ```
 
 ## Example
+
 Backrun transactions that write-lock the [Pyth SOL/USDC account](https://solscan.io/account/H6ARHf6YXhGYeQfUzQNGk6rDNnLBQKrenN712K4AQJEG):
+
 ```bash
 RUST_LOG=INFO cargo run --bin jito-backrun-example -- \
 --block-engine-url https://frankfurt.mainnet.block-engine.jito.wtf \
