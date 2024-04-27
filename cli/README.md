@@ -87,7 +87,7 @@ cargo run --bin jito-searcher-cli -- \
   --num-txs 5 \
   --lamports 100000 \
   --tip-account 96gYZGLnJYVFmbjzopPSU6QiEV5fGqZNyN9nmNhvrZU5 \
-  --rpc-url "https://mainnet.rpc.jito.wtf/?access-token=<token here>"
+  --rpc-url "https://solana-mainnet.g.alchemy.com/v2/AX7_HdVVI495DCuuoAz8aOp5AotK_88A"
 ```
 
 Example output:
